@@ -1,4 +1,4 @@
-import { projects as projectDemo } from "../constant/projectDetails"
+import { projects as projectDemo } from "../constant/projectServices"
 const Projects = () => {
     return (
         <div className="bg-black text-white py-20" id="project">

@@ -7,9 +7,8 @@ const Navbar = () => {
                 <div className="text-2xl  font-bold  hidden md:inline cursor-pointer">Shadab Khan</div>
                 <div className="space-x-6">
                     <a href="#home" className="hover:text-gray-400">Home</a>
-
                     <a href="#service" className="hover:text-gray-400">Services</a>
-                    <a href="#projects" className="hover:text-gray-400">Projects</a>
+                    <a href="#project" className="hover:text-gray-400">Projects</a>
                     <a href="#about" className="hover:text-gray-400">About</a>
                     <a href="#contact" className="hover:text-gray-400">Contact</a>
 

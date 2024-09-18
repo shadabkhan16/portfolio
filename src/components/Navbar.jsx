@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="bg-black text-white px-8 md:px-16 lg:px-24">
             <div className="container py-2 flex justify-between items-center">
                 {/* Logo */}
-                <div className="text-2xl font-bold hidden md:inline cursor-pointer">Shadab Khan</div>
+                <div className="text-2xl font-bold  md:inline cursor-pointer">Shadab Khan</div>
 
                 {/* Links - Hidden on small screens */}
                 <div className="hidden md:flex space-x-6">
@@ -37,6 +37,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu - Visible when hamburger is clicked */}
+
             {isOpen && (
                 <div className="md:hidden flex flex-col items-center space-y-4 mt-4">
                     <a href="#home" className="hover:text-gray-400">Home</a>

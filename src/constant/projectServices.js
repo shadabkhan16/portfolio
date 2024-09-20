@@ -1,30 +1,35 @@
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
+import todoapp from "../assets/todoapp.png";
 
 export const projects = [
   {
     id: 1,
-    name: "E-cart",
-    technologies: "MERN Stack",
-    image: project1,
+    name: "Todo Web App",
+    technologies: "React Redux-toolkit TailwindCSS",
+    image: todoapp,
+    url: "https://todo-web-app-delta-flax.vercel.app/",
   },
   {
     id: 2,
     name: "Admin Login",
     technologies: "React Js + Firebase",
     image: project2,
+    url: "#",
   },
   {
     id: 3,
     name: "E-cart",
     technologies: "React Js + AWS",
     image: project1,
+    url: "#",
   },
   {
     id: 4,
     name: "Admin Login",
     technologies: "React Js ",
     image: project2,
+    url: "#",
   },
 ];
 
